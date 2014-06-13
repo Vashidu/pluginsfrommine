@@ -1,0 +1,5 @@
+CommandLog:
+  Player: true
+ChatLog:
+  Player: true
+  Global: true

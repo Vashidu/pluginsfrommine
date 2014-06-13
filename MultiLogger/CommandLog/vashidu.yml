@@ -1,0 +1,104 @@
+[13-06-2014 08:22:04] ?e//wand?r
+[13-06-2014 08:22:22] ?e/up 10?r
+[13-06-2014 08:22:32] ?e//replace lava air?r
+[13-06-2014 08:23:07] ?e/god?r
+[13-06-2014 08:25:57] ?e/up 128?r
+[13-06-2014 08:26:32] ?e//?r
+[13-06-2014 08:27:59] ?e/up 20?r
+[13-06-2014 08:28:43] ?e/worldguard?r
+[13-06-2014 08:28:48] ?e/help worldguard?r
+[13-06-2014 08:29:20] ?e//expand vert?r
+[13-06-2014 08:29:43] ?e/region claim spawn vashidu world?r
+[13-06-2014 08:30:39] ?e/region flag spawn pvp deny?r
+[13-06-2014 08:34:28] ?e//expand vert?r
+[13-06-2014 08:34:34] ?e/region claim spawn vashidu world?r
+[13-06-2014 08:34:48] ?e/region reclaim spawn vashidu world?r
+[13-06-2014 08:35:00] ?e/region define spawn vashidu world?r
+[13-06-2014 08:35:07] ?e/region redefine spawn vashidu world?r
+[13-06-2014 08:35:12] ?e/region redefine spawn?r
+[13-06-2014 08:35:52] ?e/region flag spawn mob-damage deny?r
+[13-06-2014 08:35:59] ?e/region flag spawn mob-spawning deny?r
+[13-06-2014 08:36:09] ?e/region flag spawn tnt?r
+[13-06-2014 08:36:13] ?e/region flag spawn tnt deny?r
+[13-06-2014 08:36:23] ?e/region flag spawn lava-fire?r
+[13-06-2014 08:36:26] ?e/region flag spawn lava-fire deny?r
+[13-06-2014 08:36:32] ?e/region flag spawn tnt deny?r
+[13-06-2014 08:36:44] ?e/region flag spawn fire-spread deny?r
+[13-06-2014 08:38:00] ?e/pex?r
+[13-06-2014 08:38:04] ?e/manuadd?r
+[13-06-2014 08:38:54] ?e/regen?r
+[13-06-2014 08:38:57] ?e//regen?r
+[13-06-2014 08:39:06] ?e//set air?r
+[13-06-2014 08:39:26] ?e//set water?r
+[13-06-2014 08:39:33] ?e//set grass?r
+[13-06-2014 08:40:02] ?e/give vashidu cart 1?r
+[13-06-2014 08:40:09] ?e/gamemode creative?r
+[13-06-2014 08:43:34] ?e/slay?r
+[13-06-2014 08:48:35] ?e/spawn?r
+[13-06-2014 08:48:39] ?e/goto spawn?r
+[13-06-2014 08:48:42] ?e/help?r
+[13-06-2014 08:49:06] ?e/gamerule keepinventory true?r
+[13-06-2014 08:49:12] ?e/gamerule keepInventory true?r
+[13-06-2014 08:49:16] ?e/kill?r
+[13-06-2014 08:49:26] ?e/gamemode survival?r
+[13-06-2014 08:49:29] ?e/gamerule keepInventory true?r
+[13-06-2014 08:49:36] ?e/slay?r
+[13-06-2014 08:50:25] ?e/setspawn?r
+[13-06-2014 08:50:27] ?e/spawn?r
+[13-06-2014 08:50:28] ?e/help?r
+[13-06-2014 08:50:32] ?e/help bukkit?r
+[13-06-2014 08:50:35] ?e/help bukkit 2?r
+[13-06-2014 08:50:37] ?e/help bukkit 24?r
+[13-06-2014 08:50:39] ?e/help bukkit 4?r
+[13-06-2014 08:50:45] ?e/spawnpoint?r
+[13-06-2014 08:50:53] ?e/exit?r
+[13-06-2014 08:50:55] ?e/quit?r
+[13-06-2014 08:54:13] ?e/mob?r
+[13-06-2014 08:54:15] ?e/spawn?r
+[13-06-2014 08:54:17] ?e/help?r
+[13-06-2014 08:54:23] ?e/help prism?r
+[13-06-2014 08:54:27] ?e/prism?r
+[13-06-2014 09:01:22] ?e/restart?r
+[13-06-2014 09:02:06] ?e/cb update?r
+[13-06-2014 09:02:15] ?e/help?r
+[13-06-2014 09:02:22] ?e/help essentialsspawn?r
+[13-06-2014 09:02:25] ?e/setspawn?r
+[13-06-2014 09:02:32] ?e/spawn?r
+[13-06-2014 09:06:41] ?e/whitelist on?r
+[13-06-2014 09:06:47] ?e/whitelist add vashidu?r
+[13-06-2014 09:06:50] ?e/reload?r
+[13-06-2014 09:08:10] ?e/cb update?r
+[13-06-2014 09:08:18] ?e/fly?r
+[13-06-2014 09:08:22] ?e/god?r
+[13-06-2014 09:09:38] ?e/pex user vashidu group add owner?r
+[13-06-2014 09:10:12] ?e/pex group owner prefix [Owner]?r
+[13-06-2014 09:10:23] ?e/pex group owner prefix [Owner]><?r
+[13-06-2014 09:11:06] ?e/region flag?r
+[13-06-2014 09:11:15] ?e/region flag spawn mob-spawning deny?r
+[13-06-2014 09:11:18] ?e/killall?r
+[13-06-2014 09:11:25] ?e/killall mobs?r
+[13-06-2014 09:12:08] ?e/xp 9000000?r
+[13-06-2014 09:12:11] ?e/xp 90000000?r
+[13-06-2014 09:12:13] ?e/xp 90000000?r
+[13-06-2014 09:12:15] ?e/xp 90000000\?r
+[13-06-2014 09:12:17] ?e/xp 90000000?r
+[13-06-2014 09:12:18] ?e/xp 90000000?r
+[13-06-2014 09:12:19] ?e/xp 90000000?r
+[13-06-2014 09:12:21] ?e/xp 900000000?r
+[13-06-2014 09:12:23] ?e/xp 9000000000?r
+[13-06-2014 09:12:25] ?e/xp 900000000?r
+[13-06-2014 09:12:27] ?e/xp 900000000?r
+[13-06-2014 09:12:28] ?e/xp 900000000?r
+[13-06-2014 09:13:19] ?e/mode creative?r
+[13-06-2014 09:13:22] ?e/gamemode?r
+[13-06-2014 09:13:26] ?e/gamemode creative?r
+[13-06-2014 09:15:08] ?e/region flag spawn build deny?r
+[13-06-2014 09:15:47] ?e/region flag spawn feed-amount 20?r
+[13-06-2014 09:16:00] ?e/region flag spawn feed-delay 5?r
+[13-06-2014 09:16:10] ?e/region flag spawn heal-delay 5?r
+[13-06-2014 09:16:16] ?e/region flag spawn heal-amount 20?r
+[13-06-2014 11:03:47] ?e/tp Reinardus?r
+[13-06-2014 11:08:23] ?e/list?r
+[13-06-2014 11:28:33] ?e/reload?r
+[13-06-2014 17:13:20] ?e/list?r
+[13-06-2014 17:13:40] ?e/tp Riseing?r
