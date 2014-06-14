@@ -4,8 +4,11 @@
 groups:
   Owner:
     default: false
+    inheritance:
+     - Mod
     prefix: '[Owner]><'
     suffix: ''
+    permissions:
     options:
       rank: ''
   Guest:
@@ -16,19 +19,27 @@ groups:
       rank: ''
   Manager:
     default: false
+    inheritance:
+     - Guest
     prefix: ''
     suffix: ''
     options:
       rank: ''
   Mod:
     default: false
-    prefix: ''
+    inheritance:
+     - Manager
+    permissions:
+     - essentials.afk.kickexempt
+    prefix: '[M]'
     suffix: ''
     options:
       rank: ''
   Builder:
     default: false
-    prefix: ''
+    inheritance:
+     - Guest
+    prefix: '[B]'
     suffix: ''
     options:
       rank: ''

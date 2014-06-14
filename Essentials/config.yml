@@ -81,7 +81,7 @@ item-spawn-blacklist:
 permission-based-item-spawn: false
 
 # Mob limit on the /spawnmob command per execution.
-spawnmob-limit: 10
+spawnmob-limit: 100
 
 # Shall we notify users when using /lightning?
 warn-on-smite: true
@@ -334,13 +334,13 @@ auto-afk: 300
 # After this timeout in seconds, the user will be kicked from the server.
 # essentials.afk.kickexempt node overrides this feature.
 # Set to -1 for no timeout.
-auto-afk-kick: -1
+auto-afk-kick: 120
 
 # Set this to true, if you want to freeze the player, if he is afk.
 # Other players or monsters can't push him out of afk mode then.
 # This will also enable temporary god mode for the afk player.
 # The player has to use the command /afk to leave the afk mode.
-freeze-afk-players: false
+freeze-afk-players: true
 
 # When the player is afk, should he be able to pickup items?
 # Enable this, when you don't want people idling in mob traps.
@@ -360,7 +360,7 @@ death-messages: true
 
 # Should operators be able to join and part silently.
 # You can control this with permissions if it is enabled.
-allow-silent-join-quit: false
+allow-silent-join-quit: true
 
 # You can set a custom join message here, set to "none" to disable.
 # You may use color codes, use {USERNAME} the player's name or {PLAYER} for the player's displayname.
@@ -719,6 +719,6 @@ newbies:
 respawn-listener-priority: high
 
 # When users die, should they respawn at their first home or bed, instead of the spawnpoint?
-respawn-at-home: false
+respawn-at-home: true
 
 # End of File <-- No seriously, you're done with configuration.
