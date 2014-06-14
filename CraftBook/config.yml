@@ -10,9 +10,6 @@
 # List of mechanics to enable! If they aren't in this list, the server won't load them!
 enabled-mechanics:
 - Variables
-
-# A list of CraftBook mechanics that are disabled, for easy copy/pastability to the enabled list.
-disabled-mechanics:
 - MinecartVisionSteering
 - MinecartEmptySlowdown
 - SignCopier
@@ -91,6 +88,9 @@ disabled-mechanics:
 - CommandItems
 - Sponge
 - Pipes
+# A list of CraftBook mechanics that are disabled, for easy copy/pastability to the enabled list.
+disabled-mechanics:
+
 
 # WARNING! Changing this can result in all ST mechanics acting very weirdly, only change this if you know what you are doing!
 st-think-ticks: 2
