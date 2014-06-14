@@ -2,4 +2,4 @@ permissions:
   backend: file
   backends:
     file:
-      file: derp.yml
+      file: permissions.yml

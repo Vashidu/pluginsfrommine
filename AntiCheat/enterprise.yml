@@ -3,19 +3,19 @@
 # Server-specific settings
 server:
   # An identifiable name for this server
-  name: server-1
+  name: unholy
 # Database settings
 database:
   # Type of database.
   type: MySQL
   # Address of the server
-  hostname: ''
+  hostname: '127.0.0.1'
   # Port of the server
   port: 3306
   # Username to connect with
-  username: ''
+  username: 'anticheat'
   # Password for the user
-  password: ''
+  password: 'BKrdcAqK4jPBw86s'
   # Prefix for the tables
   prefix: ac_
   # Database/Schema to use
