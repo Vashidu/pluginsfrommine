@@ -10,13 +10,13 @@ groups:
     suffix: ''
     permissions:
     options:
-      rank: ''
+      rank: '1'
   Guest:
     default: true
     prefix: ''
     suffix: ''
     options:
-      rank: ''
+      rank: '50'
   Manager:
     default: false
     inheritance:
@@ -24,7 +24,7 @@ groups:
     prefix: ''
     suffix: ''
     options:
-      rank: ''
+      rank: '20'
   Mod:
     default: false
     inheritance:
@@ -34,7 +34,7 @@ groups:
     prefix: '[M]'
     suffix: ''
     options:
-      rank: ''
+      rank: '10'
   Builder:
     default: false
     inheritance:
@@ -42,7 +42,7 @@ groups:
     prefix: '[B]'
     suffix: ''
     options:
-      rank: ''
+      rank: '50'
 users:
   riseing:
     group:
