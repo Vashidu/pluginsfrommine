@@ -1,0 +1,35 @@
+# Default MobHealth Config file
+# 
+# disableSpout: [true|false] - force messages to display in chat even if spout is present.
+# disableChat: [true|false] - force messages to display only if spout is present.
+# setting both these to true will cause no notifications to appear!  
+disableSpout: false
+disableChat: false
+showRPG: false
+showSideNotification: false
+healthBarSize: 10
+showPlayerHeadHealth: true
+showMobHeadHealth: true
+usePercentForPlayer: true
+useBarForMobs: true
+cleanDeathMessages: true
+hideBarForAnimal: false
+hideBarForVillager: true
+hideBarForNPC: true
+forceBarHide:
+- EnderDragon
+- Horse
+- Wither
+showbarCustomNameOnly: false
+alwaysVisable: false
+usePermissions: false
+disablePlayers: false
+disableMonsters: false
+disableAnimals: false
+disablePets: false
+damageDisplayType: 4
+hideNoDammage: true
+defaultToggle: true
+updateCheck: true
+doUpdate: true
+debugMode: false

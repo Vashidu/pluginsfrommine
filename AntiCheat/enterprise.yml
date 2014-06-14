@@ -9,13 +9,13 @@ database:
   # Type of database.
   type: MySQL
   # Address of the server
-  hostname: '127.0.0.1'
+  hostname: 127.0.0.1
   # Port of the server
   port: 3306
   # Username to connect with
-  username: 'anticheat'
+  username: anticheat
   # Password for the user
-  password: 'BKrdcAqK4jPBw86s'
+  password: BKrdcAqK4jPBw86s
   # Prefix for the tables
   prefix: ac_
   # Database/Schema to use
