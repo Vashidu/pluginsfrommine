@@ -1,0 +1,101 @@
+# %player_name% - Works on 'Returning_Join_Message' and 'New_Join_Message' and 'Message_of_The_Day' and 'Quit_Message'
+# %total_players% - Works on 'New_Join_Message'
+# %killer% and %weapon% - works on Player Death Message
+# %killed% and %world% - works on all death messages
+# Help editing the config in game http://dev.bukkit.org/server-mods/joinmessages/pages/help/
+# StorageType Valid Types: file or mysql
+StorageType: file
+MySQL:
+  Host: localhost
+  Port: 3306
+  Username: root
+  Password: password
+  Database: legendarymessages
+  Table_Prefix: lm_
+MOTD:
+  Enabled: true
+  Message: '&bWelcome To Our Server!'
+New_Join_Message:
+  Enabled: true
+  Message: '&dWelcome %player_name%, To The Server!/n&d%total_players% Players Have
+    Joined This Server!'
+Returning_Join_Message:
+  Enabled: true
+  Message: '&dWelcome Back, %player_name%!'
+Quit_Message:
+  Enabled: true
+  Message: '&d%player_name% Has Left The Server!'
+Kick_Message:
+  Enabled: false
+  Message: '&e%player_name% has left!'
+Death_Message:
+  Enabled: true
+  Messages:
+    Player: '&c%killed% &7has been slain by &c%killer% &7with their &c%weapon% &7in
+      the world &c%world%'
+    Mobs:
+      Zombie: '&c%killed% &7has been slain by a &cZombie'
+      PigZombie: '&c%killed% &7has been slain by a &cPigZombie'
+      Skeleton: '&c%killed% &7has been slain by a &cSkeleton'
+      Creeper: '&c%killed% &7has been slain by a &cCreeper'
+      Ghast: '&c%killed% &7has been slain by a &cGhast'
+      MagmaCube: '&c%killed% &7has been slain by a &cMagmaCube'
+      Slime: '&c%killed% &7has been slain by a &cSlime'
+      Wolf: '&c%killed% &7has been slain by a &cWolf'
+      Spider: '&c%killed% &7has been slain by a &cSpider'
+      CaveSpider: '&c%killed% &7has been slain by a &cCaveSpider'
+      Giant: '&c%killed% &7has been slain by a &cGiant'
+      Blaze: '&c%killed% &7has been slain by a &cBlaze'
+      Silverfish: '&c%killed% &7has been slain by a &cSilverFish'
+      Enderman: '&c%killed% &7has been slain by a &cEnderman'
+      EnderDragon: '&c%killed% &7has been slain by The &cEnderDragon'
+      WitherSkeleton: '&c%killed% &7has been slain by a &cWitherSkeleton'
+      WitherBoss: '&c%killed% &7has been slain by a &cWitherBoss'
+      IronGolem: '&c%killed% &7has been slain by a &cIronGolem'
+    Blocks:
+      Cactus: '&c%killed% &7was pricked by a &cCactus'
+      Tnt: '&c%killed% &7blew up'
+    Other:
+      Drown: '&c%killed% &7drowned'
+      Fall: '&c%killed% &7took a leap of faith'
+      Fire: '&c%killed% &7went up in flames'
+      Suffocation: '&c%killed% &7suffocated'
+      Void: '&c%killed% &7Fell into the Void'
+      Starvation: '&c%killed% &7Starved To Death'
+      Suicide: '&c%killed% &7Decided To End It All'
+      Potion: '&c%killed% &7was killed by magic'
+      Poison: '&c%killed% &7was poisoned to death!'
+      Lightening: '&c%killed% &7was struck by lightening!'
+      Lava: '&c%killed% &7tried to swim in lava'
+      Fire_Tick: '&c%killed% &7died from the burns of fire'
+      EnderPearl: '&c%killed% &7died from throwing an ender pearl'
+    UnknownReason: '%killed% Just Died... (Cause: %cause%)'
+Whitelist_Message: '&fYou are not White-Listed on this server!'
+Say_Prefix: '&d[Server]'
+AutoUpdate: true
+UseNicknames: true
+AutoMessages:
+  Enabled: true
+  UseBarAPI: false
+  Interval: 20
+  Prefix: '&f[&aAutoMessage&f]'
+  NewLinePrefix: true
+  Messages:
+    global:
+      interval: 1200
+      use_permission: false
+      permission: LegendaryMessages.AutoMessages.global
+      list:
+      - Message 1
+      - Message 2
+      - Message 3
+      - Message 4
+    vip:
+      interval: 1800
+      use_permission: true
+      permission: LegendaryMessages.AutoMessages.vip
+      list:
+      - Vip 1
+      - Vip 2
+      - Vip 3
+      - Vip 4
