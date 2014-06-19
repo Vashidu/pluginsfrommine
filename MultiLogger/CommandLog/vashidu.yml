@@ -144,3 +144,6 @@
 [19-06-2014 02:37:45] ?e/pex reload?r
 [19-06-2014 02:38:38] ?e/pex user vashidu group add Sys-min?r
 [19-06-2014 03:09:23] ?e/exit?r
+[19-06-2014 03:36:06] ?e/pex user vashidu group?r
+[19-06-2014 03:36:08] ?e/pex user vashidu group list?r
+[19-06-2014 03:36:18] ?e/pex user vashidu group add Owner?r

@@ -1,6 +1,6 @@
 uuid: c75bf3ee-6414-444e-9ef5-fe5e41d2856c
 timestamps:
-  login: 1403138160083
+  login: 1403141758935
   lastteleport: 1403133271475
   logout: 1403140165449
 ipAddress: 71.76.232.78
@@ -19,4 +19,4 @@ logoutlocation:
   z: 426.1805124104795
   yaw: 289.4456
   pitch: 34.35
-afk: false
+afk: true
