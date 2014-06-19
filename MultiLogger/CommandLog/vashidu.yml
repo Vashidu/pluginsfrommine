@@ -147,3 +147,59 @@
 [19-06-2014 03:36:06] ?e/pex user vashidu group?r
 [19-06-2014 03:36:08] ?e/pex user vashidu group list?r
 [19-06-2014 03:36:18] ?e/pex user vashidu group add Owner?r
+[19-06-2014 03:53:14] ?e/reload?r
+[19-06-2014 03:53:19] ?e/stop?r
+[19-06-2014 03:54:57] ?e/pex user vashidu?r
+[19-06-2014 03:55:52] ?e/stop update?r
+[19-06-2014 03:57:34] ?e/pex user vashidu group add SyS-Min?r
+[19-06-2014 03:58:06] ?e/plugins?r
+[19-06-2014 03:58:33] ?e/help?r
+[19-06-2014 03:58:37] ?e/pex user vashidu?r
+[19-06-2014 03:58:41] ?e/pex user vashidu group list?r
+[19-06-2014 04:02:19] ?e/stop reboot?r
+[19-06-2014 04:03:15] ?e/stop reboot?r
+[19-06-2014 04:08:22] ?e/pex user vashidu group add Owner?r
+[19-06-2014 04:09:03] ?e/pex user vashidu group remove owner?r
+[19-06-2014 04:09:09] ?e/pex user vashidu group add Sys-min?r
+[19-06-2014 04:11:03] ?e/pex group owner prefix?r
+[19-06-2014 04:11:08] ?e/pex group owner prefix derp?r
+[19-06-2014 04:11:43] ?e/pex group owner prefix &6[&lOwner&6]&khi&f?r
+[19-06-2014 04:11:51] ?e/pex user vashidu group remove sys-min?r
+[19-06-2014 04:11:59] ?e/pex user vashidu group add Owner?r
+[19-06-2014 04:21:03] ?e/pex user riseing group add owner?r
+[19-06-2014 04:25:23] ?e/spawn?r
+[19-06-2014 04:25:55] ?e/tphere Narumphalump123?r
+[19-06-2014 04:27:09] ?e/pex user Narumphalump123 group add Builder?r
+[19-06-2014 04:29:08] ?e/pex user XxRaidanAidanxX group add regular?r
+[19-06-2014 04:29:17] ?e/nick derp?r
+[19-06-2014 04:29:22] ?e/nick?r
+[19-06-2014 04:29:26] ?e/nick off?r
+[19-06-2014 04:30:23] ?e/pex group add essentials.chat.color permission?r
+[19-06-2014 04:31:31] ?e/pex group default add essentials.chat.color?r
+[19-06-2014 04:32:28] ?e/reload?r
+[19-06-2014 04:34:00] ?e/pex group default add essentials.chat.format?r
+[19-06-2014 04:34:04] ?e/reload?r
+[19-06-2014 04:34:47] ?e/tphere Narumphalump123?r
+[19-06-2014 04:36:37] ?e/nick XxRaidanAidanxX &l&8Raidan&2Aidan&r?r
+[19-06-2014 04:36:47] ?e/nick XxRaidanAidanxX &l&8Raidan&2Aidan?r
+[19-06-2014 04:36:57] ?e/nick XxRaidanAidanxX &8Raidan&2Aidan?r
+[19-06-2014 04:37:07] ?e/onlie?r
+[19-06-2014 04:37:09] ?e/online?r
+[19-06-2014 04:39:58] ?e/pex group reguloar add essentials.back?r
+[19-06-2014 04:40:04] ?e/pex group regular add essentials.back?r
+[19-06-2014 04:40:18] ?e/pex group regular add essentials.back.ondeath?r
+[19-06-2014 04:40:20] ?e/reload?r
+[19-06-2014 04:49:46] ?e//eand?r
+[19-06-2014 04:49:48] ?e//wand?r
+[19-06-2014 04:50:07] ?e//fill grass?r
+[19-06-2014 04:50:13] ?e/fill grass?r
+[19-06-2014 04:50:21] ?e//replace water grass?r
+[19-06-2014 04:50:46] ?e//replace * grass?r
+[19-06-2014 04:50:52] ?e//replace sand grass?r
+[19-06-2014 04:50:57] ?e//replace water grass?r
+[19-06-2014 04:51:04] ?e//replace air grass?r
+[19-06-2014 17:38:31] ?e/weather?r
+[19-06-2014 17:38:34] ?e/weather sun?r
+[19-06-2014 17:50:48] ?e/plugins?r
+[19-06-2014 17:51:00] ?e/prism?r
+[19-06-2014 17:51:33] ?e/nodus?r

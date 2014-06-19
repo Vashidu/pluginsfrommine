@@ -1,8 +1,8 @@
 geolocation: Canada
 uuid: 45e839fd-4767-4551-a3de-55496e88bb0d
 timestamps:
-  login: 1403141635782
-  logout: 1403141640732
+  login: 1403143679027
+  logout: 1403146437327
 ipAddress: 173.238.54.167
 lastlocation:
   world: world
@@ -13,8 +13,9 @@ lastlocation:
   pitch: 0.0
 logoutlocation:
   world: world
-  x: -108.50058831833647
+  x: -39.78667376997097
   y: 74.0
-  z: 362.59445911960637
-  yaw: -37.898537
-  pitch: 14.699999
+  z: 413.69737787221106
+  yaw: -129.99869
+  pitch: 43.79996
+nickname: §8Raidan§2Aidan
