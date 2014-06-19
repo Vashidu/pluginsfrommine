@@ -1,0 +1,20 @@
+geolocation: United Kingdom
+uuid: a9f9af96-cbee-436c-afca-0a4c0d797e8e
+timestamps:
+  login: 1402985328162
+  logout: 1402985785745
+ipAddress: 92.24.188.228
+lastlocation:
+  world: world
+  x: -37.5
+  y: 118.0
+  z: 419.5
+  yaw: 0.0
+  pitch: 0.0
+logoutlocation:
+  world: world
+  x: -875.6488889442314
+  y: 70.0
+  z: 878.2957771867664
+  yaw: 14.752332
+  pitch: 16.799973

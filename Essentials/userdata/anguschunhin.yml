@@ -1,0 +1,20 @@
+geolocation: Hong Kong
+uuid: b80a3c95-fef3-4add-95da-0552b133f7fa
+timestamps:
+  login: 1402985876295
+  logout: 1402986020892
+ipAddress: 210.6.80.118
+lastlocation:
+  world: world
+  x: -35.5
+  y: 116.0
+  z: 418.5
+  yaw: 0.0
+  pitch: 0.0
+logoutlocation:
+  world: world
+  x: 166.71904812834407
+  y: 66.0
+  z: 239.4375623196119
+  yaw: -341.94702
+  pitch: 21.599955

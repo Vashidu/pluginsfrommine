@@ -1,0 +1,20 @@
+geolocation: Finland
+uuid: 1d71decf-1f81-4b65-baad-f241539fcd67
+timestamps:
+  login: 1403014592193
+  logout: 1403014674634
+ipAddress: 87.95.50.227
+lastlocation:
+  world: world
+  x: -45.5
+  y: 124.0
+  z: 430.5
+  yaw: 0.0
+  pitch: 0.0
+logoutlocation:
+  world: world
+  x: -88.41514053025573
+  y: 74.0
+  z: 486.9530892623735
+  yaw: 69.43473
+  pitch: -1.5857202

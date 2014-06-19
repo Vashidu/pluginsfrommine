@@ -1,0 +1,20 @@
+geolocation: Australia
+uuid: 20195019-3efa-4170-a166-9356c5887220
+timestamps:
+  login: 1402993404573
+  logout: 1402993470079
+ipAddress: 180.200.137.134
+lastlocation:
+  world: world
+  x: -47.5
+  y: 124.0
+  z: 425.5
+  yaw: 0.0
+  pitch: 0.0
+logoutlocation:
+  world: world
+  x: -123.92500001192093
+  y: 87.5
+  z: 422.6021488490932
+  yaw: -114.24808
+  pitch: 38.4

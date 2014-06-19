@@ -1,0 +1,20 @@
+geolocation: Australia
+uuid: 98650713-645f-4477-8a56-5928fd1c1fa6
+timestamps:
+  login: 1402988873537
+  logout: 1402989009146
+ipAddress: 121.215.161.156
+lastlocation:
+  world: world
+  x: -41.5
+  y: 122.0
+  z: 432.5
+  yaw: 0.0
+  pitch: 0.0
+logoutlocation:
+  world: world
+  x: -5.500905231138237
+  y: 74.0
+  z: 466.5465570800636
+  yaw: -236.64812
+  pitch: 2.6999805

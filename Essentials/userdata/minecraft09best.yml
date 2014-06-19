@@ -1,0 +1,25 @@
+geolocation: United States
+uuid: abbafa2f-7c27-4284-9301-11082934fd8c
+timestamps:
+  login: 1403136369862
+  logout: 1403136496680
+ipAddress: 71.14.39.126
+lastlocation:
+  world: world
+  x: -53.5
+  y: 118.0
+  z: 429.5
+  yaw: 0.0
+  pitch: 0.0
+logoutlocation:
+  world: world
+  x: 29.35607636090684
+  y: 95.5
+  z: 426.82987154709343
+  yaw: -89.671326
+  pitch: 19.12345
+ban:
+  reason: |-
+    §4Banned:
+    §rapply on the website
+  timeout: 0

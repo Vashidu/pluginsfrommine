@@ -1,0 +1,25 @@
+geolocation: Kuwait
+uuid: f07437cf-1bdf-425c-83aa-7ed73221e960
+timestamps:
+  login: 1402984811326
+  logout: 1402985179754
+ipAddress: 80.184.37.215
+lastlocation:
+  world: world
+  x: -48.5
+  y: 123.0
+  z: 429.5
+  yaw: 0.0
+  pitch: 0.0
+ban:
+  reason: |-
+    §4Banned:
+    §rThe Ban Hammer has spoken!
+  timeout: 0
+logoutlocation:
+  world: world
+  x: 4.804063346313717
+  y: 80.0
+  z: 422.5514709607411
+  yaw: 73.34644
+  pitch: 69.81303

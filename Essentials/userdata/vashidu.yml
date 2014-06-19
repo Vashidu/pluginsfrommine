@@ -1,21 +1,22 @@
 uuid: c75bf3ee-6414-444e-9ef5-fe5e41d2856c
 timestamps:
-  login: 1402672391040
-  lastteleport: 1402672420850
-  logout: 1402672541070
+  login: 1403138160083
+  lastteleport: 1403133271475
+  logout: 1403140165449
 ipAddress: 71.76.232.78
 lastlocation:
   world: world
-  x: -41.30000001192093
-  y: 79.36933695946747
-  z: 425.0616898528115
-  yaw: -316.75006
-  pitch: 15.750012
+  x: -15.084103719578849
+  y: 99.83901705040302
+  z: 424.5128056369421
+  yaw: -304.43518
+  pitch: 23.310852
 godmode: true
 logoutlocation:
   world: world
-  x: -15.135871753904308
-  y: 101.0
-  z: 284.63744325355367
-  yaw: 352.40186
-  pitch: 0.5999981
+  x: 28.69999998807907
+  y: 108.5
+  z: 426.1805124104795
+  yaw: 289.4456
+  pitch: 34.35
+afk: false

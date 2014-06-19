@@ -1,0 +1,20 @@
+uuid: 7ea5c76e-2564-48e0-b5fc-9eb03a318a83
+timestamps:
+  login: 1402985460237
+  logout: 1402985560093
+ipAddress: 84.87.204.105
+geolocation: Netherlands
+lastlocation:
+  world: world
+  x: -46.5
+  y: 124.0
+  z: 429.5
+  yaw: 0.0
+  pitch: 0.0
+logoutlocation:
+  world: world
+  x: -57.92500001192094
+  y: 83.5
+  z: 424.4346921063969
+  yaw: -119.49821
+  pitch: 52.8485

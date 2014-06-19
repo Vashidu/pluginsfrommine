@@ -1,0 +1,20 @@
+geolocation: Sweden
+uuid: ec2c55dd-ddc5-477f-9130-7599cd140330
+timestamps:
+  login: 1403019519825
+  logout: 1403019513688
+ipAddress: 217.209.212.39
+lastlocation:
+  world: world
+  x: -35.5
+  y: 116.0
+  z: 417.5
+  yaw: 0.0
+  pitch: 0.0
+logoutlocation:
+  world: world
+  x: -148.46486152752465
+  y: 74.0
+  z: 324.1515261315978
+  yaw: 146.98975
+  pitch: 23.019098

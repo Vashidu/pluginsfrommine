@@ -1,0 +1,20 @@
+geolocation: United States
+uuid: 5adc88a0-8ed9-4b56-b143-96d6144f529b
+timestamps:
+  login: 1403017263700
+  logout: 1403017267651
+ipAddress: 71.57.109.132
+lastlocation:
+  world: world
+  x: -50.5
+  y: 116.0
+  z: 416.5
+  yaw: 0.0
+  pitch: 0.0
+logoutlocation:
+  world: world
+  x: -44.74734053895881
+  y: 84.0
+  z: 412.92500001192093
+  yaw: 172.97464
+  pitch: 31.735445

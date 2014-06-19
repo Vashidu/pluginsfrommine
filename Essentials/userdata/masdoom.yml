@@ -1,0 +1,20 @@
+geolocation: Indonesia
+uuid: d280074e-815a-4ec6-a2b5-3bf47907b73b
+timestamps:
+  login: 1402986970513
+  logout: 1402987691291
+ipAddress: 139.0.168.123
+lastlocation:
+  world: world
+  x: -41.5
+  y: 122.0
+  z: 430.5
+  yaw: 0.0
+  pitch: 0.0
+logoutlocation:
+  world: world
+  x: -4.417909480066966
+  y: 74.0
+  z: 371.2014713325977
+  yaw: -62.498657
+  pitch: 33.60003

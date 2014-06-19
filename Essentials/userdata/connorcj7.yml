@@ -1,0 +1,20 @@
+geolocation: Israel
+uuid: 984d8209-5605-4d44-af02-a2f989537b99
+timestamps:
+  login: 1402997318275
+  logout: 1402997359892
+ipAddress: 5.29.145.97
+lastlocation:
+  world: world
+  x: -41.5
+  y: 117.0
+  z: 417.5
+  yaw: 0.0
+  pitch: 0.0
+logoutlocation:
+  world: world
+  x: -68.6929934905843
+  y: 75.0
+  z: 376.7606744676525
+  yaw: -136.8982
+  pitch: 25.698484

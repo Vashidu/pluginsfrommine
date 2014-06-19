@@ -1,0 +1,20 @@
+geolocation: Germany
+uuid: 834ee16a-4a13-422b-a09b-9d7917a18371
+timestamps:
+  login: 1403016286266
+  logout: 1403016552867
+ipAddress: 77.76.231.95
+lastlocation:
+  world: world
+  x: 33.07499998807907
+  y: 75.0
+  z: 351.9819661800084
+  yaw: -112.01743
+  pitch: 17.686085
+logoutlocation:
+  world: world
+  x: -44.25259789624768
+  y: 77.0
+  z: 429.65261231449324
+  yaw: -320.7032
+  pitch: 31.017612
