@@ -4,25 +4,20 @@
 # and can be inherited in any worlds groups/users.yml.
 groups:
   SyS-Min:
-    default: false
     permissions:
-    - -vanish.nointeract
     - '*'
-    inheritance:
-    - admin
-    prefix: '&6[&0System Admin&6]&khi&f '
-    suffix: ' &kyes&r&e'
+    options:
+      prefix: '&6[&0System Admin&6]&khi&f '
+      suffix: ' &kyes&r&e'
+      default: false
   Owner:
-    default: false
     permissions:
     - '*'
-    - essentials.*
-    inheritance:
-    - head-admin
-    prefix: '&e&l[&mOwn3r&kz]'
-    suffix: ''
+    options:
+      prefix: '&6[&lOwner&6]&khi&f'
+      suffix: ''
+      default: false
   SeniorDEV:
-    default: false
     permissions:
     - essentials.clearinventory.others
     - essentials.gamemode
@@ -46,8 +41,9 @@ groups:
       prefix: '&4[&4Senior&1DEV]&4'
       build: true
       suffix: '&4'
+    options:
+      default: false
   Praefectus:
-    default: false
     permissions:
     - essentials.kit.light
     - essentials.nick
@@ -55,19 +51,23 @@ groups:
     - essentials.suicide
     inheritance:
     - centurion
-    prefix: '&f[&4Praefectus&f] '
-    suffix: ''
+    options:
+      prefix: '&f[&4Praefectus&f] '
+      suffix: ''
+      default: false
   regular:
-    default: false
     permissions:
+    - essentials.back.ondeath
+    - essentials.back
     - essentials.msg
     - essentials.tpdeny
     inheritance:
     - default
-    prefix: '&f[&6Member&f] '
-    suffix: ''
+    options:
+      prefix: '&f[&6Member&f] '
+      suffix: ''
+      default: false
   Senior-Admin:
-    default: false
     permissions:
     - essentials.*
     - essentials.banip
@@ -82,28 +82,31 @@ groups:
     - worldguard.*
     inheritance:
     - admin
-    prefix: '&3[&6Senior-Admin&3] '
-    suffix: ''
+    options:
+      prefix: '&3[&6Senior-Admin&3] '
+      suffix: ''
+      default: false
   Operator:
-    default: false
     permissions:
     - essentials.*
     - nocheat.*
     inheritance:
     - senior-admin
-    prefix: '&6[&3Operator&6]&3 '
-    suffix: ''
+    options:
+      prefix: '&6[&3Operator&6]&3 '
+      suffix: ''
+      default: false
   HeadOP:
-    default: false
     permissions:
     - essentials.*
     - nocheat.*
     inheritance:
     - senior-admin
-    prefix: '&6[&4Head &5Operator&6]&4 '
-    suffix: ''
+    options:
+      prefix: '&6[&4Head &5Operator&6]&4 '
+      suffix: ''
+      default: false
   Legati:
-    default: false
     permissions:
     - essentials.kit.build
     - essentials.kit.gold
@@ -112,19 +115,21 @@ groups:
     - worldedit.navigation.unstuck
     inheritance:
     - praefectus
-    prefix: '&f[&2Legati&f] '
-    suffix: ''
+    options:
+      prefix: '&f[&2Legati&f] '
+      suffix: ''
+      default: false
   LegatusLegioni:
-    default: false
     permissions:
     - essentials.gamemode
     - essentials.item
     inheritance:
     - legati
-    prefix: '&f[&3Legatus Legioni&f] '
-    suffix: ''
+    options:
+      prefix: '&f[&3Legatus Legioni&f] '
+      suffix: ''
+      default: false
   Miltes:
-    default: false
     permissions:
     - essentials.feed
     - essentials.god
@@ -137,18 +142,20 @@ groups:
     - worldguard.ungod
     inheritance:
     - tirones
-    prefix: '&f[&9Miltes&f] '
-    suffix: ''
+    options:
+      prefix: '&f[&9Miltes&f] '
+      suffix: ''
+      default: false
   CoOwner:
-    default: false
     permissions:
     - worldguard.region.*
     inheritance:
     - admin
-    prefix: '&4[&lCoOwner&4] &r'
-    suffix: ''
+    options:
+      prefix: '&4[&lCoOwner&4] &r'
+      suffix: ''
+      default: false
   Hyperion:
-    default: false
     permissions:
     - essentials.gamemode
     - essentials.item
@@ -160,10 +167,11 @@ groups:
     - worldguard.region.list
     inheritance:
     - zeus
-    prefix: '&5&m[&lHyperion&kl]&6'
-    suffix: ''
+    options:
+      prefix: '&5&m[&lHyperion&kl]&6'
+      suffix: ''
+      default: false
   Centurion:
-    default: false
     permissions:
     - essentials.jump
     - essentials.kit.diamond
@@ -171,10 +179,11 @@ groups:
     - teleport.tp
     inheritance:
     - discen
-    prefix: '&f[&bCenturion&f] '
-    suffix: ''
+    options:
+      prefix: '&f[&bCenturion&f] '
+      suffix: ''
+      default: false
   Admin:
-    default: false
     permissions:
     - essentials.clearinventory.others
     - essentials.gamemode
@@ -194,11 +203,14 @@ groups:
     - worldguard.region.removemember.*
     inheritance:
     - seniormod
-    prefix: '&6[&1Admin&6] &1'
-    suffix: ''
+    options:
+      prefix: '&6[&1Admin&6] &1'
+      suffix: ''
+      default: false
   default:
-    default: true
     permissions:
+    - essentials.chat.format
+    - essentials.chat.color
     - essentials.balance
     - essentials.help
     - essentials.helpop
@@ -217,10 +229,11 @@ groups:
     - essentials.warp
     - essentials.warp.*
     inheritance: []
-    prefix: '&f[&7Guest&f] '
-    suffix: ''
+    options:
+      prefix: '&f[&7Guest&f] '
+      suffix: ''
+      default: true
   SeniorMod:
-    default: false
     permissions:
     - essentials.back
     - essentials.ban
@@ -234,27 +247,30 @@ groups:
     - essentials.togglejail
     inheritance:
     - moderator
-    prefix: '&6[&9Senior-Mod&6] &9'
-    suffix: ''
+    options:
+      prefix: '&6[&9Senior-Mod&6] &9'
+      suffix: ''
+      default: false
   Gladiator:
-    default: false
     permissions:
     - essentials.kit
     - essentials.kit.gladiator
     - essentials.kit.wood
-    prefix: '&f[&0Gladiator&f] &f'
-    suffix: ''
+    options:
+      prefix: '&f[&0Gladiator&f] &f'
+      suffix: ''
+      default: false
   Zeus:
-    default: false
     permissions:
     - essentials.smite
     - essentials.socialspy
     inheritance:
     - legatuslegioni
-    prefix: '&f[&0Zeus&6] &6'
-    suffix: ''
+    options:
+      prefix: '&f[&0Zeus&6] &6'
+      suffix: ''
+      default: false
   Builder:
-    default: false
     permissions:
     - essentials.gamemode
     - essentials.item
@@ -271,27 +287,30 @@ groups:
     - worldguard.region.removemember.*
     inheritance:
     - regular
-    prefix: '&6[&1Builder&6] &1'
     build: true
-    suffix: ''
+    options:
+      prefix: '&6[&1Builder&6] &1'
+      suffix: ''
+      default: false
   Discen:
-    default: false
     permissions:
     - essentials.kit.iron
     - essentials.repair
     - worldedit.butcher
     inheritance:
     - miltes
-    prefix: '&f[&6Discen&f] '
-    suffix: ''
+    options:
+      prefix: '&f[&6Discen&f] '
+      suffix: ''
+      default: false
   Tirones:
-    default: false
     inheritance:
     - regular
-    prefix: '&f[&8Tirones&f] '
-    suffix: ''
+    options:
+      prefix: '&f[&8Tirones&f] '
+      suffix: ''
+      default: false
   Moderator:
-    default: false
     permissions:
     - essentials.kick
     - essentials.mute
@@ -299,11 +318,12 @@ groups:
     - essentials.tp
     inheritance:
     - legati
-    prefix: '&6[&9Moderator&6] &9'
     build: true
-    suffix: ''
+    options:
+      prefix: '&6[&9Moderator&6] &9'
+      suffix: ''
+      default: false
   Head-Admin:
-    default: false
     permissions:
     - disguisecraft.*
     - essentials.*
@@ -315,12 +335,32 @@ groups:
     - worldguard.*
     inheritance:
     - admin
-    - legatuslegioni
-    - owner
-    - builder
-    prefix: '&6[&4Head-Admin&6] &4'
-    suffix: ''
+    options:
+      prefix: '&6[&4Head-Admin&6] &4'
+      suffix: ''
+      default: false
+  reguloar:
+    permissions:
+    - essentials.back
 users:
-  vashidu:
+  c75bf3ee-6414-444e-9ef5-fe5e41d2856c:
     permissions:
     - '*'
+    options:
+      name: vashidu
+    group:
+    - Owner
+  riseing:
+    group:
+    - Owner
+  924d264b-b860-4781-aaa1-f0d822702220:
+    group:
+    - Builder
+    options:
+      name: Narumphalump123
+  45e839fd-4767-4551-a3de-55496e88bb0d:
+    group:
+    - regular
+    options:
+      name: XxRaidanAidanxX
+schema-version: 1

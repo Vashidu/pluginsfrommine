@@ -3,58 +3,61 @@
 
 groups:
   Owner:
-    default: false
     inheritance:
-     - Mod
-    prefix: '[Owner]><'
-    suffix: ''
-    permissions:
+    - Mod
     options:
       rank: '1'
+      prefix: '[Owner]><'
+      suffix: ''
+      default: false
   Guest:
-    default: true
-    prefix: ''
-    suffix: ''
     options:
       rank: '50'
+      prefix: ''
+      suffix: ''
+      default: true
   Manager:
-    default: false
     inheritance:
-     - Guest
-    prefix: ''
-    suffix: ''
+    - Guest
     options:
       rank: '20'
+      prefix: ''
+      suffix: ''
+      default: false
   Mod:
-    default: false
     inheritance:
-     - Manager
+    - Manager
     permissions:
-     - essentials.afk.kickexempt
-    prefix: '[M]'
-    suffix: ''
+    - essentials.afk.kickexempt
     options:
       rank: '10'
+      prefix: '[M]'
+      suffix: ''
+      default: false
   Builder:
-    default: false
     inheritance:
-     - Guest
-    prefix: '[B]'
-    suffix: ''
+    - Guest
     options:
       rank: '50'
+      prefix: '[B]'
+      suffix: ''
+      default: false
 users:
   riseing:
     group:
     - Owner
     permissions:
     - '*'
-    prefix: ''
-    suffix: ''
-  vashidu:
+    options:
+      prefix: ''
+      suffix: ''
+  c75bf3ee-6414-444e-9ef5-fe5e41d2856c:
     group:
     - Owner
     permissions:
     - '*'
-    prefix: ''
-    suffix: ''
+    options:
+      prefix: ''
+      suffix: ''
+      name: vashidu
+schema-version: 1
