@@ -350,9 +350,11 @@ users:
       name: vashidu
     group:
     - Owner
-  riseing:
+  riseing: &id001
     group:
     - Owner
+    options:
+      name: Riseing
   924d264b-b860-4781-aaa1-f0d822702220:
     group:
     - Builder
@@ -363,4 +365,5 @@ users:
     - regular
     options:
       name: XxRaidanAidanxX
+  a6bcb93f-ba5c-4817-85be-baeabc8bc92a: *id001
 schema-version: 1
