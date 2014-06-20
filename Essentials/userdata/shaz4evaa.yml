@@ -1,0 +1,21 @@
+geolocation: United Kingdom
+uuid: cea3561a-2cd4-4d91-addd-cb416e30e01a
+timestamps:
+  login: 1403210966272
+  logout: 1403210973524
+  lastteleport: 1403194693725
+ipAddress: 77.96.142.157
+lastlocation:
+  world: world
+  x: -21.569311358324363
+  y: 74.5
+  z: 456.3553809081849
+  yaw: 260.3015
+  pitch: 6.0000005
+logoutlocation:
+  world: world
+  x: 2.0764166806333524
+  y: 10.0
+  z: 428.34310282715614
+  yaw: -5.047862
+  pitch: -80.25001

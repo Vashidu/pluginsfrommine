@@ -1,0 +1,20 @@
+geolocation: Canada
+uuid: a2488b43-6c7a-41e3-8e49-f6020caf6c62
+timestamps:
+  login: 1403218802694
+  logout: 1403218811922
+ipAddress: 50.98.102.46
+lastlocation:
+  world: world
+  x: -50.5
+  y: 120.0
+  z: 421.5
+  yaw: 0.0
+  pitch: 0.0
+logoutlocation:
+  world: world
+  x: -44.86248369337532
+  y: 77.0
+  z: 426.71399803073723
+  yaw: -197.6482
+  pitch: 16.548494
